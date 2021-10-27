@@ -9,10 +9,10 @@ function makeItBrrt(id) {
     anime({
         targets: element,
         keyframes: [
-            { translateY: 10 },
+            { translateY: 20 },
             { translateY: 0 }
         ],
-        duration: 150,
+        duration: 200,
         easing: 'easeInOutQuad',
     });
 }
