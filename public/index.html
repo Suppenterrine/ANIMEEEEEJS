@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/button.css">
+</head>
+
+<body>
+
+    <div class="card" id="nighty-night" onclick="makeItBrrt(this.id)">
+        <div class="card-header">Night</div>
+        <div class="card-main">
+            <i class="material-icons">hot_tub</i>
+            <div class="main-description">Hot Tub</div>
+        </div>
+    </div>
+
+    <div class="card" id="favorisierung" onclick="makeItBrrt(this.id)">
+        <div class="card-header">Favorite</div>
+        <div class="card-main">
+            <i class="material-icons">favorite</i>
+            <div class="main-description">You are my favorite!</div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/animeeeren.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
+
+</html>

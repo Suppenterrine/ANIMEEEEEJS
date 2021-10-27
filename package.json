@@ -1,0 +1,31 @@
+{
+  "name": "animeeeeejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suppenterrine/ANIMEEEEEJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suppenterrine/ANIMEEEEEJS/issues"
+  },
+  "homepage": "https://github.com/Suppenterrine/ANIMEEEEEJS#readme",
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "browserify": "^17.0.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.14",
+    "ramda": "^0.27.1",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/animejs": "^3.1.4"
+  }
+}
