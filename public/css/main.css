@@ -2,19 +2,25 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.card {
-    width: 150px;
-    /* Set width of cards */
-    border: 1px solid #EF9A9A;
-    /* Set up Border */
-    border-radius: 4px;
-    /* Slightly Curve edges */
-    overflow: hidden;
-    /* Fixes the corners */
+.container {
     display: flex;
+    flex-direction: row;
+}
+
+.card {
+    cursor: pointer;
+    /* Set width of cards */
+    width: 150px;
+    /* Set up Border */
+    border: 1px solid #EF9A9A;
+    /* Slightly Curve edges */
+    border-radius: 4px;
+    /* Fixes the corners */
+    overflow: hidden;
     /* Children use Flexbox */
-    flex-direction: column;
+    display: flex;
     /* Rotate Axis */
+    flex-direction: column;
     margin: 1.5em;
 }
 
@@ -29,16 +35,16 @@ body {
 }
 
 .card-main {
-    display: flex;
     /* Children use Flexbox */
-    flex-direction: column;
+    display: flex;
     /* Rotate Axis to Vertical */
-    justify-content: center;
+    flex-direction: column;
     /* Group Children in Center */
-    align-items: center;
+    justify-content: center;
     /* Group Children in Center (+axis) */
-    padding: 15px 0;
+    align-items: center;
     /* Add padding to the top/bottom */
+    padding: 15px 0;
 }
 
 .material-icons {

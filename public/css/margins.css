@@ -1,0 +1,39 @@
+.smallMargin {
+    margin: 10px;
+}
+
+.smallMarginTop {
+    margin-top: 10px;
+}
+
+.smallMarginBottom {
+    margin-bottom: 10px;
+}
+
+.smallMarginBegin {
+    margin-left: 10px;
+}
+
+.smallMarginEnd {
+    margin-right: 10px;
+}
+
+.mediumMargin {
+    margin: 20px;
+}
+
+.mediumMarginTop {
+    margin-top: 20px;
+}
+
+.mediumMarginBottom {
+    margin-bottom: 20px;
+}
+
+.mediumMarginBegin {
+    margin-left: 20px;
+}
+
+.mediumMarginEnd {
+    margin-right: 20px;
+}

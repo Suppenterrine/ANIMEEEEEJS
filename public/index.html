@@ -9,25 +9,34 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/margins.css">
+    <link rel="stylesheet" href="css/paddings.css">
 </head>
 
 <body>
 
-    <div class="card" id="nighty-night" onclick="makeItBrrt(this.id)">
-        <div class="card-header">Night</div>
-        <div class="card-main">
-            <i class="material-icons">hot_tub</i>
-            <div class="main-description">Hot Tub</div>
-        </div>
-    </div>
+    <div class="container">
 
-    <div class="card" id="favorisierung" onclick="makeItBrrt(this.id)">
-        <div class="card-header">Favorite</div>
-        <div class="card-main">
-            <i class="material-icons">favorite</i>
-            <div class="main-description">You are my favorite!</div>
+        <div class="card" id="nighty-night" onclick="whoopsie(this.id)">
+            <div class="card-header">Night</div>
+            <div class="card-main">
+                <i class="material-icons">hot_tub</i>
+                <div class="main-description">Hot Tub</div>
+            </div>
         </div>
+
+        <div class="card" id="favorisierung" onclick="whoopsie(this.id)">
+            <div class="card-header">Favorite</div>
+            <div class="card-main">
+                <i class="material-icons">favorite</i>
+                <div class="main-description">You are my favorite!</div>
+            </div>
+        </div>
+
+        <p id="info" class="mediumMarginTop smallMarginEnd">
+            <p id="boldy" class="mediumMarginTop smallMarginStart"></p>
+        </p>
+
     </div>
 
     <script src="/socket.io/socket.io.js"></script>

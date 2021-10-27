@@ -1,0 +1,39 @@
+.smallPadding { 
+    padding: 10px;
+}
+
+.smallPaddingTop { 
+    padding-top: 10px;
+}
+
+.smallPaddingBottom { 
+    padding-bottom: 10px;
+}
+
+.smallPaddingBegin { 
+    padding-left: 10px;
+}
+
+.smallPaddingEnd { 
+    padding-right: 10px;
+}
+
+.mediumPadding { 
+    padding: 20px;
+}
+
+.mediumPaddingTop { 
+    padding-top: 20px;
+}
+
+.mediumPaddingBottom { 
+    padding-bottom: 20px;
+}
+
+.mediumPaddingBegin { 
+    padding-left: 20px;
+}
+
+.mediumPaddingEnd { 
+    padding-right: 20px;
+}
