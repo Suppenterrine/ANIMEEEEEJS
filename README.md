@@ -1,6 +1,6 @@
 # ANIMEEEEEJS
 
-little node app
+little node app,
 uses anime.js
 
 ## Usage:
